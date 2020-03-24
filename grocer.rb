@@ -51,8 +51,8 @@ cart_item_with_coupon = find_item_by_name_in_collection(couponed_item_name, cart
         :clearance => cart_item[counter][:num]
       }
 end
-end
-counter += 1 
+endcounter += 1
+ 
 end 
 cart
 end
