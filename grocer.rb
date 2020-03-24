@@ -14,11 +14,11 @@ require 'pry'
  
 
 def consolidate_cart(cart)
-  # Consult README for inputs and outputs
-  #
-  # REMEMBER: This returns a new Array that represents the cart. Don't merely
-  # change `cart` (i.e. mutate) it. It's easier to return a new thing.
-end
+ new_cart = []
+ index = 0 
+   while index < cart.length do 
+      new_cart_item = 
+   end
 
 def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
