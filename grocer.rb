@@ -49,7 +49,7 @@ counter = 0
         :item => couponed_item_name,
         :price => coupons[counter][:num] / coupons[counter][:num],
         :count => coupons[counter][:num],
-        :clearance => cart_item[counter][:num]
+        :clearance => cart_item[counter][:clearance]
       }
 end
 counter += 1
